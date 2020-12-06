@@ -1,0 +1,73 @@
+/* Responsive */
+
+  /* Responsive 7680px device */
+
+@media only screen and (min-width: 250px) and (max-width: 768px) {
+    .menu{
+        top: 0%;
+        left: 0;
+        transform: translateY(0%);
+        width: 100%;
+        margin: auto;
+        background-color: #ccc;
+    }
+    .menu ul li{
+        display: inline-grid;
+        padding-top: 10px;
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+    }
+    .menu ul li a{
+        border-radius: 50%;
+    }
+    .menu ul li a:hover{
+        width: 50px;
+
+    }
+    .home h2{
+        font-size: 40px;
+    }
+}
+@media only screen and (min-width: 300px) and (max-width: 768px) {
+    .menu{
+        top: 0%;
+        left: 0;
+        transform: translateY(0%);
+        width: 100%;
+        margin: auto;
+        background-color: #ccc;
+    }
+    .menu ul li{
+        display: inline-grid;
+        padding-top: 10px;
+        height: 40px;
+        width: 40px;
+        font-size: 20px;
+    }
+    .menu ul li a{
+        border-radius: 50%;
+    }
+    .menu ul li a:hover{
+        width: 50px;
+
+    }
+    .home h2{
+        font-size: 40px;
+    }
+    .pricing-left{
+        height: 360px !important;
+    }
+    .contact-details{
+        border-bottom: 1px solid darkgray;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .menu{
+       position: fixed; 
+       top: 29%;
+       left: 0;
+       transform: translate(-20%,-50%);
+       z-index: 999;
+  }
+}
